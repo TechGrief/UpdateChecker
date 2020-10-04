@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://ftp.samkirkland.com/
-        ftp-username: myFtpUserName
+        ftp-username: TechGrief
         ftp-password: ${{ secrets.FTP_PASSWORD }}
